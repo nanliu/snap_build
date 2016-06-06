@@ -29,7 +29,9 @@
   <project name="intelsdi-x/snap-plugin-collector-interface" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-interface"/>
   <project name="intelsdi-x/snap-plugin-collector-iostat" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-iostat"/>
   <project name="intelsdi-x/snap-plugin-collector-keystone" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-keystone"/>
+  <!--
   <project name="intelsdi-x/snap-plugin-collector-libvirt" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-libvirt"/>
+  -->
   <project name="intelsdi-x/snap-plugin-collector-load" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-load"/>
   <project name="intelsdi-x/snap-plugin-collector-meminfo" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-meminfo"/>
   <project name="intelsdi-x/snap-plugin-collector-mysql" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-mysql"/>
