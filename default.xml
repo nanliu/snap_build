@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Format Reference: https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt -->
 <manifest>
   <remote  name="github"
     fetch="https://github.com" />
@@ -7,5 +8,49 @@
     remote="github"
     sync-j="4" />
 
+  <project name="intelsdi-x/gomit" remote="github" path="src/github.com/intelsdi-x/gomit"/>
   <project name="intelsdi-x/snap" remote="github" path="src/github.com/intelsdi-x/snap"/>
+  <project name="intelsdi-x/snap-plugin-utilities" remote="github" path="src/github.com/intelsdi-x/snap-plugin-utilities"/>
+  <project name="intelsdi-x/snap-plugin-collector-facter" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-facter"/>
+  <project name="intelsdi-x/snap-plugin-collector-pcm" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-pcm"/>
+  <project name="intelsdi-x/snap-plugin-collector-psutil" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-psutil"/>
+  <project name="intelsdi-x/snap-plugin-collector-rabbitmq" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-rabbitmq"/>
+  <project name="intelsdi-x/snap-plugin-collector-apache" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-apache"/>
+  <project name="intelsdi-x/snap-plugin-collector-ceph" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-ceph"/>
+  <project name="intelsdi-x/snap-plugin-collector-cinder" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-cinder"/>
+  <project name="intelsdi-x/snap-plugin-collector-cpu" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-cpu"/>
+  <project name="intelsdi-x/snap-plugin-collector-dbi" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-dbi"/>
+  <project name="intelsdi-x/snap-plugin-collector-df" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-df"/>
+  <project name="intelsdi-x/snap-plugin-collector-docker" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-docker"/>
+  <project name="intelsdi-x/snap-plugin-collector-ethtool" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-ethtool"/>
+  <project name="intelsdi-x/snap-plugin-collector-glance" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-glance"/>
+  <project name="intelsdi-x/snap-plugin-collector-haproxy" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-haproxy"/>
+  <project name="intelsdi-x/snap-plugin-collector-influxdb" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-influxdb"/>
+  <project name="intelsdi-x/snap-plugin-collector-interface" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-interface"/>
+  <project name="intelsdi-x/snap-plugin-collector-iostat" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-iostat"/>
+  <project name="intelsdi-x/snap-plugin-collector-keystone" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-keystone"/>
+  <project name="intelsdi-x/snap-plugin-collector-libvirt" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-libvirt"/>
+  <project name="intelsdi-x/snap-plugin-collector-load" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-load"/>
+  <project name="intelsdi-x/snap-plugin-collector-meminfo" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-meminfo"/>
+  <project name="intelsdi-x/snap-plugin-collector-mysql" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-mysql"/>
+  <project name="intelsdi-x/snap-plugin-collector-neutron" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-neutron"/>
+  <project name="intelsdi-x/snap-plugin-collector-node-manager" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-node-manager"/>
+  <project name="intelsdi-x/snap-plugin-collector-nova" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-nova"/>
+  <project name="intelsdi-x/snap-plugin-collector-osv" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-osv"/>
+  <project name="intelsdi-x/snap-plugin-collector-perfevents" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-perfevents"/>
+  <project name="intelsdi-x/snap-plugin-collector-processes" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-processes"/>
+  <project name="intelsdi-x/snap-plugin-collector-smart" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-smart"/>
+  <project name="intelsdi-x/snap-plugin-collector-swap" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-swap"/>
+  <project name="intelsdi-x/snap-plugin-collector-users" remote="github" path="src/github.com/intelsdi-x/snap-plugin-collector-users"/>
+  <project name="intelsdi-x/snap-plugin-processor-movingaverage" remote="github" path="src/github.com/intelsdi-x/snap-plugin-processor-movingaverage"/>
+  <project name="intelsdi-x/snap-plugin-publisher-graphite" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-graphite"/>
+  <project name="intelsdi-x/snap-plugin-publisher-hana" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-hana"/>
+  <project name="intelsdi-x/snap-plugin-publisher-influxdb" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-influxdb"/>
+  <project name="intelsdi-x/snap-plugin-publisher-kafka" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-kafka"/>
+  <project name="intelsdi-x/snap-plugin-publisher-kairosdb" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-kairosdb"/>
+  <project name="intelsdi-x/snap-plugin-publisher-mysql" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-mysql"/>
+  <project name="intelsdi-x/snap-plugin-publisher-opentsdb" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-opentsdb"/>
+  <project name="intelsdi-x/snap-plugin-publisher-postgresql" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-postgresql"/>
+  <project name="intelsdi-x/snap-plugin-publisher-rabbitmq" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-rabbitmq"/>
+  <project name="intelsdi-x/snap-plugin-publisher-riemann" remote="github" path="src/github.com/intelsdi-x/snap-plugin-publisher-riemann"/>
 </manifest>
