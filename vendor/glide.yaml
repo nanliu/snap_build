@@ -1,0 +1,121 @@
+package: .
+homepage: intelsdi-x.github.io/snap/
+license: Apache-2
+excludeDirs:
+- src
+import:
+- package: github.com/coreos/go-semver
+  subpackages:
+  - semver
+- package: github.com/SAP/go-hdb
+  subpackages:
+  - driver
+- package: github.com/Sirupsen/logrus
+- package: github.com/amir/raidman
+- package: github.com/appc/spec
+  subpackages:
+  - aci
+  - type
+  - schema/types
+- package: github.com/asaskevich/govalidator
+- package: github.com/beevik/etree
+- package: github.com/codegangsta/cli
+- package: github.com/codegangsta/negroni
+- package: github.com/fsouza/go-dockerclient
+- package: github.com/ghodss/yaml
+- package: github.com/go-sql-driver/mysql
+- package: github.com/hashicorp/go-msgpack
+  subpackages:
+  - codec
+- package: github.com/hashicorp/memberlist
+- package: github.com/influxdata/influxdb
+  subpackages:
+  - client/v2
+- package: github.com/julienschmidt/httprouter
+- package: github.com/lib/pq
+- package: github.com/marpaia/graphite-golang
+- package: github.com/mitchellh/mapstructure
+- package: github.com/oleiade/reflections
+- package: github.com/opencontainers/runc
+  subpackages:
+  - libcontainer/cgroups
+  - libcontainer/cgroups/fs
+- package: github.com/pborman/uuid
+- package: github.com/rackspace/gophercloud
+  subpackages:
+  - openstack
+  - openstack/blockstorage/v1/apiversions
+  - openstack/blockstorage/v1/snapshots
+  - openstack/blockstorage/v1/volumes
+  - openstack/identity/v2/tenants
+  - openstack/identity/v2/users
+  - openstack/identity/v3/endpoints
+  - openstack/identity/v3/services
+  - openstack/networking/v2/extensions/layer3/floatingips
+  - openstack/networking/v2/extensions/layer3/routers
+  - openstack/networking/v2/networks
+  - openstack/networking/v2/ports
+  - openstack/networking/v2/subnets
+  - pagination
+- package: github.com/robfig/cron
+- package: github.com/sandlbn/libvirt-go
+- package: github.com/shirou/gopsutil
+  subpackages:
+  - cpu
+  - load
+  - mem
+  - net
+- package: github.com/streadway/amqp
+- package: github.com/stretchr/testify
+  subpackages:
+  - mock
+- package: github.com/vrischmann/jsonutil
+- package: github.com/xeipuuv/gojsonschema
+- package: golang.org/x/text
+  subpackages:
+  - transform
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp
+  - ssh/terminal
+- package: gopkg.in/Shopify/sarama.v1
+- package: gopkg.in/yaml.v2
+- package: gopkg.in/inf.v0
+- package: k8s.io/kubernetes
+  version: 9784dff94ecc5bd3370f9f6d9a2af3439275f918
+  subpackages:
+  - pkg/api/resource
+  - vendor/github.com/gogo/protobuf/proto
+  - vendor/github.com/spf13/pflag
+  - pkg/conversion
+  - third_party/forked/reflect
+- package: github.com/gogo/protobuf
+  subpackages:
+  - proto
+- package: github.com/spf13/pflag
+- package: go4.org
+  subpackages:
+  - errorutil
+- package: github.com/armon/go-metrics
+- package: github.com/hashicorp/go-multierror
+- package: github.com/hashicorp/errwrap
+- package: github.com/miekg/dns
+- package: github.com/cloudfoundry-incubator/candiedyaml
+- package: github.com/xeipuuv/gojsonreference
+- package: github.com/xeipuuv/gojsonpointer
+- package: github.com/smartystreets/assertions
+- package: github.com/smartystreets/goconvey
+- package: github.com/jtolds/gls
+- package: github.com/davecgh/go-spew
+  subpackages:
+  - spew
+- package: github.com/eapache/go-resiliency
+  subpackages:
+  - breaker
+- package: github.com/eapache/queue
+- package: github.com/golang/snappy
+- package: github.com/klauspost/crc32
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: golang.org/x/net
